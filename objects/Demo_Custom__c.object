@@ -168,7 +168,7 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Field One</label>
-        <trackTrending>false</trackTrending>
+        <trackTrending>false</trackTrending> 
         <type>Checkbox</type>
     </fields>
     <fields>
