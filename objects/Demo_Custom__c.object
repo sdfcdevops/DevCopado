@@ -162,7 +162,7 @@
     <pluralLabel>Demo Objects</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
+    <visibility>Public</visibility> 
     <fields>
         <fullName>Field_One__c</fullName>
         <defaultValue>false</defaultValue>
