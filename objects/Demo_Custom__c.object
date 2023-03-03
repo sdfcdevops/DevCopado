@@ -162,13 +162,13 @@
     <pluralLabel>Demo Objects</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility> 
-    <fields> 
+    <visibility>Public</visibility>
+    <fields>
         <fullName>Field_One__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Field One</label>
-        <trackTrending>false</trackTrending> 
+        <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
     <fields>
@@ -180,23 +180,13 @@
         <type>Email</type>
         <unique>false</unique>
     </fields>
-      <fields>
-        <fullName>Field_Three__c</fullName>
+    <fields>
+        <fullName>Field_Five__c</fullName>
+        <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>Field Three</label>
-        <required>false</required>
+        <label>Field Five</label>
         <trackTrending>false</trackTrending>
-        <type>Email</type>
-        <unique>false</unique>
-    </fields>
-        <fields>
-        <fullName>Field_four__c</fullName>
-        <externalId>false</externalId>
-        <label>Field four</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Email</type>
-        <unique>false</unique>
+        <type>Checkbox</type>
     </fields>
     <validationRules>
         <fullName>DemoValidationRuleOne</fullName>
@@ -206,6 +196,6 @@
  Field_One__c,
  ISBLANK(Field_Two__c)
 )</errorConditionFormula>
-        <errorMessage> Please enter Field two if Field one is checked.</errorMessage>
+        <errorMessage>Please enter Field two if Field one is checked.</errorMessage>
     </validationRules>
 </CustomObject>
